@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# 🔍 SF Symbols Lab — Built with Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to SF Symbols Lab — a handy little app built with [Expo](https://expo.dev) that lets you **search, preview, and customize** Apple’s SF Symbols.
 
-## Get started
+With this app, you can:
 
-1. Install dependencies
+- 🎨 Search through the full library of SF Symbols
+- 🧰 Customize symbols with:
+  - Weight (e.g. thin, regular, bold)
+  - Variant (e.g. fill, slash)
+  - Animation (pulse, rotate, etc.)
+  - Tint color
+  - Repeating
+- ✨ See real-time previews of your changes
 
-   ```bash
-   npm install
-   ```
+Built using [`@expo/symbols`](https://docs.expo.dev/versions/latest/sdk/symbols/) — powered by the system-native SF Symbols renderer.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Clone this repo and run the following:
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This will open up Expo Dev Tools in your browser. From there, you can:
 
-## Learn more
+- Open the app in the iOS Simulator or Android Emulator
+- Scan the QR code with the Expo Go app on your phone
+- Use a development build if you've set one up
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🖼️ Screenshots
 
-## Join the community
+Search and customize your favorite SF Symbols:
 
-Join our community of developers creating universal apps.
+<div align="center">
+  <img src="./assets/images/search.png" width="300" />
+  <img src="./assets/images/lab.png" width="300" />
+</div>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🧪 Tech Stack
+
+- Expo SDK
+- React Native
+- TypeScript
+- `@expo/symbols` for SF Symbols support
+
+---
+
+## 🤝 Contributions
+
+If you have ideas, improvements, or cool UI tweaks — feel free to open a PR!
+
+---
+
+## 📚 Learn More
+
+- [Expo documentation](https://docs.expo.dev/)
+- [Expo Symbols docs](https://docs.expo.dev/versions/latest/sdk/symbols/)
+- [Apple SF Symbols](https://developer.apple.com/sf-symbols/)
+
+---
+
+Happy symbol hacking! ✌️
