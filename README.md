@@ -6,9 +6,9 @@ With this app, you can:
 
 - 🎨 Search through the full library of SF Symbols
 - 🧰 Customize symbols with:
-  - Weight (e.g. thin, regular, bold)
-  - Variant (e.g. fill, slash)
-  - Animation (pulse, rotate, etc.)
+  - Weight (e.g. thin, light, bold, black)
+  - Variant (e.g. monochrome, hierarchical, palette, multicolor)
+  - Animation (pulse, bounce, etc.)
   - Tint color
   - Repeating
 - ✨ See real-time previews of your changes
@@ -34,9 +34,7 @@ This will open up Expo Dev Tools in your browser. From there, you can:
 
 ---
 
-## 🖼️ Screenshots
-
-Search and customize your favorite SF Symbols:
+## Search and customize your favorite SF Symbols:
 
 <div align="center">
   <img src="./assets/images/search.png" width="300" />
